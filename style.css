@@ -24,17 +24,14 @@
     position: absolute;
     top: 30%;
     width: 100%;
-    height: auto;
-}
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0px;
+}   
 
 .credit {
     position: absolute;
     bottom: 1%;
-}
-
-.logo p {
-    font-family: 'Hubballi', cursive;
-    font-size: 64px;
 }
 
 .logo::before {
