@@ -1,4 +1,22 @@
-html {
+* {
     padding: 0;
     margin: 0;
+}
+
+.logo {
+    font-family: 'Hubballi', cursive;
+    font-size: 64px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 35%;
+    height: 100vh;
+    background-image: url(./images/joel-filipe-QwoNAhbmLLo-unsplash.jpg);
+    background-size: cover;
 }
