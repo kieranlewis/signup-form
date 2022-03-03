@@ -30,8 +30,16 @@
 }   
 
 .credit {
+    display: flex;
+    justify-content: center;
     position: absolute;
     bottom: 1%;
+    width: 100%;
+    font-size: 12px;
+}
+
+.credit a {
+    color: white;
 }
 
 .logo::before {
