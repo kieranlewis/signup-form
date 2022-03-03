@@ -3,11 +3,6 @@
     margin: 0;
 }
 
-.logo {
-    font-family: 'Hubballi', cursive;
-    font-size: 64px;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -19,4 +14,20 @@
     height: 100vh;
     background-image: url(./images/joel-filipe-QwoNAhbmLLo-unsplash.jpg);
     background-size: cover;
+    color: white;
+}
+
+.logo p {
+    font-family: 'Hubballi', cursive;
+    font-size: 64px;
+    height: 200px;
+}
+
+.logo p::before {
+    background-image: url('./images/odin-lined.png');
+    background-size: 64px 64px;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    content: "";
 }
