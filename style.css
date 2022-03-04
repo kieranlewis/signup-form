@@ -38,6 +38,23 @@ form {
     padding: 2rem;
 }
 
+.name {
+    display: flex;
+}
+
+.contact-information {
+    display: flex;
+}
+
+.password {
+    display: flex;
+}
+
+label,input{
+    display:flex;
+    flex-direction:column;
+  }
+
 button {
     margin-bottom: 1.5rem;
 }
