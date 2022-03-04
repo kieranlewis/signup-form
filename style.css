@@ -10,12 +10,16 @@
     width: 100%;
 }
 
-.content {
-    margin: 9rem 2rem 9rem 2rem;
+.content p, button{
+    margin: 0 2rem 0 2rem;
 }
 
-.content p:last-child {
-    margin-top: 1rem;
+.content p:first-child {
+    margin-top: 9rem;
+}
+
+.content p:nth-child(3) {
+    margin: 1.5rem 2rem 3rem 2rem;
 }
 
 .sidebar {
@@ -25,6 +29,17 @@
     background-image: url(./images/joel-filipe-QwoNAhbmLLo-unsplash.jpg);
     background-size: cover;
     color: white;
+}
+
+form {
+    margin-bottom: 1.5rem;
+    border: 1px solid black;
+    width: 100%;
+    padding: 2rem;
+}
+
+button {
+    margin-bottom: 1.5rem;
 }
 
 .logo {
