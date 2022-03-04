@@ -11,7 +11,11 @@
 }
 
 .content {
-    margin: 10rem 2rem 10rem 2rem;
+    margin: 9rem 2rem 9rem 2rem;
+}
+
+.content p:last-child {
+    margin-top: 1rem;
 }
 
 .sidebar {
