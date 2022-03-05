@@ -12,7 +12,7 @@ p:not(p:last-child) {
     display: flex;
     flex-direction: row;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
 
 .content p, button{
@@ -37,7 +37,7 @@ p:not(p:last-child) {
 
 .sidebar {
     position: relative;
-    min-width: 300px;
+    min-width: 40vw;
     height: 100%;
     background-image: url(./images/joel-filipe-QwoNAhbmLLo-unsplash.jpg);
     background-size: cover;
