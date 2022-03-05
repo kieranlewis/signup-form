@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
 }
 
 p:not(p:last-child) {
@@ -29,6 +29,10 @@ p:not(p:last-child) {
 
 .content p:nth-child(3) {
     margin: 1.5rem 2rem 3rem 2rem;
+}
+
+.content {
+    width: 100%;
 }
 
 .sidebar {
