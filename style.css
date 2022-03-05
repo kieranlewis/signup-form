@@ -1,6 +1,11 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p:not(p:last-child) {
+    font-weight: bold;
 }
 
 .container {
@@ -18,6 +23,10 @@
     margin-top: 9rem;
 }
 
+.content p:last-child {
+    font-size: 0.8rem
+}
+
 .content p:nth-child(3) {
     margin: 1.5rem 2rem 3rem 2rem;
 }
@@ -25,10 +34,14 @@
 .sidebar {
     position: relative;
     min-width: 300px;
-    height: 100vh;
+    height: 100%;
     background-image: url(./images/joel-filipe-QwoNAhbmLLo-unsplash.jpg);
     background-size: cover;
     color: white;
+}
+
+form :only-child {
+    margin-bottom: 1rem;
 }
 
 form {
@@ -57,12 +70,27 @@ label,input{
     flex-direction:column;
 }
 
+label {
+    font-size: 0.6rem;
+}
+
 .name div, .contact-information div, .password div {
     padding-right: 4rem;
 }
 
 button {
     margin-bottom: 1.5rem;
+    background-color: #596D48;
+    color: white;
+    border-radius: 4px;
+    padding: 0.6rem 1.9rem 0.6rem 1.9rem;
+    border: none;
+    box-shadow: 2px 2px 4px rgb(204, 201, 201);
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
 }
 
 .logo {
