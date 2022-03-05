@@ -46,9 +46,9 @@ form :only-child {
 
 form {
     margin-bottom: 1.5rem;
-    border: 1px solid black;
     width: 100%;
     padding: 1.5rem 2rem 1.5rem 2rem;
+    box-shadow: 0 6px 4px -4px rgb(184, 184, 184), 0 2px 2px 2px rgb(184, 184, 184);
 }
 
 .name {
