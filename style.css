@@ -72,10 +72,26 @@ label,input{
 
 label {
     font-size: 0.6rem;
+    font-weight: bold;
+    color: rgb(83, 83, 83)
+}
+
+input {
+    border: 1px solid rgb(184, 184, 184);
+    padding: 3px 6px 3px 6px;
+    border-radius: 4px;
+}
+
+input:focus { 
+    box-shadow: 2px 2px 4px rgb(204, 201, 201); 
 }
 
 .name div, .contact-information div, .password div {
     padding-right: 4rem;
+}
+
+.error {
+    border: 1px solid rgb(187, 4, 4);
 }
 
 button {
@@ -132,4 +148,7 @@ a {
     font-size: 64px;
 }
 
+h2 {
+    font-size: 1.2rem;
+}
 
